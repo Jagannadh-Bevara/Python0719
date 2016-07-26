@@ -3,3 +3,4 @@ conn = mysql.connector.connect(user='root', password='ver64pad', host='localhost
 mycursor = conn.cursor()
 mycursor.execute("Show Tables")
 print mycursor.fetchall()
+print("Hello")
